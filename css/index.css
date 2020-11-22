@@ -1,0 +1,96 @@
+body {
+  background: url("../img/index/bg1.jpg") no-repeat center;
+  background-size: cover;
+}
+
+body.bg1 {
+  background-image: url("../img/index/bg1.jpg");
+}
+
+body.bg2 {
+  background-image: url("../img/index/bg2.jpg");
+}
+
+body.bg3 {
+  background-image: url("../img/index/bg3.jpg");
+}
+
+#homepage {
+  width: 100%;
+  height: 100%;
+  background: rgba(214, 225, 159, 0.38);
+  position: relative;
+}
+
+.logo {
+  width: 12rem;
+  height: 12rem;
+  position: absolute;
+  top: 5rem;
+  left: 2rem;
+}
+
+.change-bg {
+  position: absolute;
+  bottom: 0;
+  left: 13rem;
+  display: flex;
+}
+
+.change-bg div {
+  width: 5rem;
+  height: 5rem;
+  line-height: 5rem;
+  text-align: center;
+  font-size: 1.8rem;
+  color: #374c19;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.change-bg div.select {
+  background: #E86201;
+}
+
+.title {
+  color: #374C19;
+  font-size: 6rem;
+  line-height: 7rem;
+  font-weight: bolder;
+  padding-left: 13rem;
+  padding-top: 8.4rem;
+  padding-bottom: 2.6rem;
+}
+
+.sub-title {
+  color: #527125;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  padding-bottom: 4rem;
+  padding-left: 13rem;
+}
+
+.search {
+  width: 47rem;
+  height: 3.4rem;
+  display: flex;
+  margin-left: 13rem;
+}
+
+.search input {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  padding: 0.7rem 0.6rem;
+  background: #fff;
+  flex: 1;
+}
+
+.search div {
+  width: 8.2rem;
+  line-height: 3.4rem;
+  text-align: center;
+  background: #E86201;
+  color: #fff;
+  font-weight: bolder;
+  cursor: pointer;
+}

@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  height: 5rem;
+  background: #D6E19F;
+  width: 100%;
+  padding-right: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header .pages {
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.header .pages a {
+  color: #374c19;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  font-weight: bold;
+}
+
+.header .pages.select {
+  background: #E86201;
+}
